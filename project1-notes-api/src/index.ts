@@ -70,7 +70,7 @@ app.delete("/note/:id", (c) => {
   const index = notes.findIndex(note => note.id === parseInt(id))
   console.log(index)
   if (index === -1) {
-    return c.json({message: "Note Note Found!"}, 404)
+    return c.json({message: "Note Not Found!"}, 404)
   }
   notes.splice(index,1);
 
