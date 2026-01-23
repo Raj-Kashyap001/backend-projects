@@ -1,12 +1,19 @@
 {
   "name": "project3-jwt-auth",
+  "version": "1.0.0",
+  "description": "JWT Authentication system with login, token refresh, and protected routes.",
+  "main": "src/index.ts",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run src/index.ts",
+    "test": "echo \"No tests configured.\" && exit 0"
   },
   "dependencies": {
     "hono": "^4.11.5"
   },
   "devDependencies": {
     "@types/bun": "latest"
-  }
+  },
+  "author": "",
+  "license": "MIT"
 }

@@ -1,2 +1,10 @@
-# deps
+node_modules/
+dist/
+build/
+*.log
+.env
+bun.lockb
+.DS_Store
+*.tsbuildinfo
+coverage/# deps
 node_modules/
